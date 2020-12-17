@@ -39,7 +39,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Gabe Rice',
-        helpMsg: 'If you need help, this will not help because it is just a message.'
+        helpMsg: 'Simply type a city, zip code, address, or geographical coordinates.'
     })
 })
 
